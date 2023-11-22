@@ -11,9 +11,10 @@ class Program
         long test2result = 0;
         long test3result = 0;
         Console.WriteLine("For best Visual Studio expirience the results must be below 15000.\n");
-        Console.WriteLine("Please press 1 for Benchmark or 2 to see Results Database.");
+        Console.WriteLine("Please press 1 for Benchmark or 2 to see Results Database.\n");
 
         int userSelection = int.Parse(Console.ReadLine());
+        Console.WriteLine();
 
         if (userSelection == 1)
         {
