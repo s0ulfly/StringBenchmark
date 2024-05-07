@@ -70,9 +70,14 @@ class Program
             Console.ReadKey();
         }
 
-        else
+        else if (userSelection == 2)
         {
             SeeResults();
+        }
+        else
+        {
+            Console.WriteLine("Invalid input. Program will now exit. Next time press 1 or 2...");
+      
         }
 
 
